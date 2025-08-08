@@ -16,7 +16,7 @@ document.getElementById("btnSi").addEventListener("click", function () {
   });
 
   var parrafo = document.querySelector("#cuadroDialogo p");
-  parrafo.textContent = "Que esta salchipapa no sea la unica 😅...";
+  parrafo.textContent = "Que esta salchipapa no sea la unica...";
   document.getElementById("btnNo").style.display = "none";
 
   window.requestAnimationFrame =
@@ -192,3 +192,4 @@ document.getElementById("btnNo").addEventListener("click", function () {
     imageAlt: "A tall image",
   });
 });
+
